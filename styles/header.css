@@ -5,6 +5,7 @@
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
     
 }
 
@@ -22,4 +23,14 @@
 
 .conteiner__imagem {
     padding: 1em;
+}
+
+.list-menu {
+    display: none; 
+    position: absolute;
+    top:10%;
+}
+
+.conteiner__botao:checked ~ .list-menu {  /* usando o :checked ~ e a class do menu ao clicar paracera a lista */
+    display: block;
 }
