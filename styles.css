@@ -1,6 +1,7 @@
 @import url("./styles/header.css");  /* fazendo assim a pagina ira carregar mais rapido em vez de linkar ela no Html */
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -10,8 +11,14 @@
 :root {
     --cor-de-fundo:#EBECEE;
     --branco: #FFFFFF;
+    --laranja: #eb9b00;
+    --azul-degrade: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-menu: 'Poppins', sans-serif;
 }
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-menu);
+    font-weight: 400;
+    font-size: 16px;
 }

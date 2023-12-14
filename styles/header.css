@@ -29,8 +29,33 @@
     display: none; 
     position: absolute;
     top:10%;
+    width: 50vw;
 }
 
 .conteiner__botao:checked ~ .list-menu {  /* usando o :checked ~ e a class do menu ao clicar paracera a lista */
     display: block;
+}
+
+.list-menu__titulo, .list-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.list-menu__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.list-menu__link {
+    background: var(--azul-degrade, linear-gradient(98deg, #002F52 35.49%, #326589 165.37%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+}
+
+.conteiner__botao {
+    display: none;
 }
