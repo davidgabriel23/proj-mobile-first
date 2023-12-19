@@ -1,6 +1,9 @@
 @import url("./styles/header.css");  /* fazendo assim a pagina ira carregar mais rapido em vez de linkar ela no Html */
 @import url("./styles/banner.css");
 @import url("./styles/carrosel.css");
+@import url("./styles/topicos.css");
+@import url("./styles/contato.css");
+@import url("./styles/rodape.css");
 
 
 
