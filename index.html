@@ -55,7 +55,27 @@
       </div>
 
       <ul class="opcoes">
-        <li class="opcoes__item">CATEGORIAS</li>
+        <input type="checkbox" id="opoes-menu" class="opcoes__botao" />
+        <label for="opoes-menu">
+          <li class="opcoes__item">CATEGORIAS</li>
+        </label>
+        <ul class="list-menu">
+          <li class="list-menu__item">
+            <a href="#" class="list-menu__link">Programação</a>
+          </li>
+          <li class="list-menu__item">
+            <a href="#" class="list-menu__link">Front-end</a>
+          </li>
+          <li class="list-menu__item">
+            <a href="#" class="list-menu__link">Infraestrutura</a>
+          </li>
+          <li class="list-menu__item">
+            <a href="#" class="list-menu__link">Business</a>
+          </li>
+          <li class="list-menu__item">
+            <a href="#" class="list-menu__link">DESIGN & UX</a>
+          </li>
+        </ul>
         <li class="opcoes__item">
           <a href="#" class="opcoes__link"></a>FAVORITOS
         </li>
@@ -65,9 +85,24 @@
       </ul>
 
       <div class="conteiner">
-        <a href="#"><img src="./assets/Favoritos.svg"alt="Meus favoritos"class="conteiner__imagem conteiner__imagem-transparenre"/></a>
-        <a href="#"><img src="./assets/Compras.svg"alt="Carrinho de compras"class="conteiner__imagem"/></a>
-        <a href="#"><img src="./assets/Usuário.svg"alt="Meu perfil"class="conteiner__imagem"/></a>
+        <a href="#"
+          ><img
+            src="./assets/Favoritos.svg"
+            alt="Meus favoritos"
+            class="conteiner__imagem conteiner__imagem-transparenre"
+        /></a>
+        <a href="#"
+          ><img
+            src="./assets/Compras.svg"
+            alt="Carrinho de compras"
+            class="conteiner__imagem"
+        /></a>
+        <a href="#"
+          ><img
+            src="./assets/Usuário.svg"
+            alt="Meu perfil"
+            class="conteiner__imagem"
+        /></a>
       </div>
     </header>
     <section class="banner">
@@ -244,10 +279,12 @@
       </ul>
     </section>
     <section class="contato">
-      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-      <p class="contato__texto">
-        Atualizações de e-books, novos livros, promoções e outros.
-      </p>
+      <div class="contato__descricao">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">
+          Atualizações de e-books, novos livros, promoções e outros.
+        </p>
+      </div>
       <input
         type="email"
         placeholder="cadastre seu e-mail"

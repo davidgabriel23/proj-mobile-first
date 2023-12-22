@@ -105,5 +105,16 @@
     .cabecalho__menu-hamburguer {
         display: none;
     }
+    
+    .opcoes__botao:checked~.list-menu{
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__botao{
+        display: none;
+    }
+    
+
 
 }
